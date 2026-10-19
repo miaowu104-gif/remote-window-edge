@@ -1,0 +1,13 @@
+{
+  "folium": 1,
+  "id": "remote-window-edge",
+  "name": "小窗拖边修复",
+  "version": "1.1.0",
+  "author": "Hyacinth",
+  "description": "放歌时小窗左边有一截完全透明却仍算在窗口里，播放器按整个窗口限制拖动，小窗因此拖不到屏幕左侧。模组不改动播放器的任何监听，只把窗口放回你拖到的位置，可在设置里关掉。",
+  "main": "index.cjs",
+  "client": "client.mjs",
+  "preview": "preview.jpg",
+  "permissions": ["filesystem.data"],
+  "folia": ">=0.7.21 <0.8.0"
+}

@@ -1,0 +1,3 @@
+.token
+*.zip
+node_modules/
